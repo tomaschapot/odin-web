@@ -1,0 +1,22 @@
+/*Elementos Base*/
+
+* {
+	font-family: "Open Sans", sans-serif;
+	font-family: "Oswald", sans-serif;
+	font-family: "PT Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.barra-navegacion {
+	display: flex;
+}
+
+.izquierda {
+	margin-right: auto;
+}
