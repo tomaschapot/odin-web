@@ -13,10 +13,25 @@ h1 {
 	font-size: 48px;
 }
 
+/*Header*/
+.header {
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/213/699/609/super-mario-bros-wallpaper-preview.jpg");
+	background-size: cover;
+	color: orange;
+	height: 350px;
+}
+
+/*Nav*/
+
 .barra-navegacion {
 	display: flex;
 }
 
 .izquierda {
 	margin-right: auto;
+}
+
+/*Hero*/
+.contenedor-header {
+	display: flex;
 }
