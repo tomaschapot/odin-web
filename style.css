@@ -15,11 +15,12 @@ h1 {
 	font-size: 80px;
 
 	color: rgb(255, 255, 255);
-	text-shadow: rgb(175, 175, 175) 4px 4px 4px;
+	text-shadow: rgb(175, 175, 175) 0px 4px 4px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 50px;
+	color: rgba(255, 255, 255, 0.897);
 }
 
 .main-container {
@@ -65,10 +66,11 @@ h2 {
 	margin-left: 195px;
 }
 
-li:hover {
+.nav-boton:hover {
 	color: rgb(248, 92, 1);
 	font-size: 1.2rem;
 	transition: 0.3s;
+	text-shadow: rgba(218, 165, 32, 0.568) 0px 2px 4px;
 }
 
 .animate__animated.animate__pulse {
@@ -132,6 +134,18 @@ p {
 /*seccion*/
 
 .contenedor-seccion {
-	margin-top: 400px;
+	margin-top: 380px;
 	text-align: center;
+}
+
+.contenedor-elementos-seccion {
+	display: flex;
+	justify-content: space-between;
+}
+
+.imagen img {
+	width: auto;
+	height: 300px;
+	border: rgba(255, 245, 238, 0.226) 2px solid;
+	margin-top: 60px;
 }
