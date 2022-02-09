@@ -51,7 +51,7 @@ h2 {
 .barra-navegacion {
 	height: 50px;
 	background-color: rgba(0, 0, 0, 0.459);
-	z-index: 1;
+	z-index: 20;
 	position: fixed;
 	top: 0;
 	width: 100%;
