@@ -180,3 +180,38 @@ blockquote i {
 	display: block;
 	text-align: right;
 }
+
+/*Subscripcion*/
+
+.espacio-subscribirse {
+	width: 100%;
+	height: 300px;
+}
+
+.caja-subscripcion {
+	padding: 40px;
+	margin: 100px auto 0 auto;
+	height: 200px;
+	width: 80%;
+	background-color: rgba(0, 0, 0, 0.459);
+	border: rgba(255, 255, 255, 0.322) solid 1px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.boton-subscripcion button {
+	margin: 0;
+}
+
+.contenedor-footer p {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.459);
+	font-weight: 100;
+	font-size: 15px;
+	display: block;
+	text-align: right;
+	padding: 18px;
+}
