@@ -7,6 +7,8 @@
 	font-family: "Roboto", sans-serif;
 	text-decoration: none;
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -22,15 +24,20 @@ h1 {
 }
 
 /*Header*/
+
+#particles-js {
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .header {
 	background-image: url("/images/super-mario-3d-world-bowsers-fury-lm.jpg");
 	background-size: cover;
 	background-position: center;
 	color: rgb(214, 214, 214);
-	height: 350px;
-}
-
-.header-logo img {
+	height: 100vh;
 }
 
 /*Nav*/
@@ -39,6 +46,7 @@ h1 {
 	display: flex;
 	gap: 15px;
 	height: 50px;
+	background-color: rgba(0, 0, 0, 0.459);
 }
 
 .izquierda {
@@ -52,8 +60,9 @@ li:hover {
 }
 
 li {
-	margin-top: 10px;
+	margin-top: 14px;
 	transition: 0.3s;
+	margin-right: 15px;
 }
 
 /*Hero*/
