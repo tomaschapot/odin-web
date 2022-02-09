@@ -64,9 +64,12 @@ h2 {
 .izquierda {
 	margin-right: auto;
 }
-.header-logo {
-}
 
+.header-logo {
+	font-weight: 900;
+	font-size: 40px;
+	margin-top: 0;
+}
 .nav-boton:hover {
 	color: rgb(248, 92, 1);
 	font-size: 1.2rem;
