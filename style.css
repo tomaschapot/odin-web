@@ -163,7 +163,20 @@ p {
 
 .contenedor-quote {
 	margin-top: 40px;
-	height: 400px;
+	height: 300px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.459);
+	padding-top: 20px;
+}
+
+blockquote i {
+	font-size: 20px;
+	display: block;
+	margin-top: 50px;
+	text-align: justify;
+}
+
+.margin-izq {
+	display: block;
+	text-align: right;
 }
