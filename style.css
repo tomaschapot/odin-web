@@ -55,7 +55,7 @@ h1 {
 }
 
 li:hover {
-	color: rgb(255, 255, 255);
+	color: rgb(248, 92, 1);
 	font-size: 1.2rem;
 	transition: 0.3s;
 }
@@ -65,6 +65,7 @@ li {
 	transition: 0.3s;
 	margin-right: 15px;
 	z-index: 1;
+	font-weight: 500;
 }
 
 /*Hero*/
@@ -73,18 +74,23 @@ li {
 	margin-top: 100px;
 }
 
-.imagen-hero img {
-	height: 250px;
-	width: auto;
+.imagen-hero {
+	z-index: 4;
+	margin-top: 70px;
 }
 
-button {
+.boton-play {
 	padding: 1.3rem;
-	background-color: rgb(248, 133, 1);
+	background-color: rgb(248, 92, 1);
 	color: white;
 	border-radius: 1rem;
-	z-index: 1;
+	z-index: 15;
 	margin-top: 30px;
 	font-size: large;
 	font-weight: bold;
+}
+
+.boton-play:hover {
+	color: black;
+	background-color: white;
 }
