@@ -48,6 +48,9 @@ h1 {
 	height: 50px;
 	background-color: rgba(0, 0, 0, 0.459);
 	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .izquierda {
@@ -83,12 +86,19 @@ li:last-of-type {
 /*Hero*/
 .contenedor-header {
 	display: flex;
-	margin-top: 100px;
+}
+
+.contenedor-parrafo {
+	max-width: 80%;
+}
+
+.seccion-izquierda {
+	margin-top: 160px;
 }
 
 .imagen-hero {
 	z-index: 4;
-	margin-top: 70px;
+	margin-top: 230px;
 }
 
 .boton-play {
@@ -100,13 +110,14 @@ li:last-of-type {
 	margin-top: 70px;
 	font-size: large;
 	font-weight: bold;
-	transition: 4s;
+	transition: 2s;
+	border: 0;
 }
 
 .boton-play:hover {
 	color: rgb(65, 65, 65);
-	background-color: rgb(255, 0, 0);
-	transition: 4s;
+	background-color: rgb(255, 187, 0);
+	transition: 2s;
 }
 
 p {
