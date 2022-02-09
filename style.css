@@ -49,8 +49,6 @@ h2 {
 /*Nav*/
 
 .barra-navegacion {
-	display: flex;
-	gap: 15px;
 	height: 50px;
 	background-color: rgba(0, 0, 0, 0.459);
 	z-index: 1;
@@ -58,12 +56,15 @@ h2 {
 	top: 0;
 	width: 100%;
 }
+.contenedor-nav {
+	display: flex;
+	gap: 15px;
+}
 
 .izquierda {
 	margin-right: auto;
 }
 .header-logo {
-	margin-left: 195px;
 }
 
 .nav-boton:hover {
@@ -87,7 +88,7 @@ li {
 }
 
 li:last-of-type {
-	margin-right: 190px;
+	margin-right: 0px;
 }
 
 /*Hero*/
@@ -134,18 +135,35 @@ p {
 /*seccion*/
 
 .contenedor-seccion {
-	margin-top: 380px;
+	margin-top: 25vh;
 	text-align: center;
 }
 
 .contenedor-elementos-seccion {
 	display: flex;
 	justify-content: space-between;
+	gap: 40px;
 }
 
 .imagen img {
 	width: auto;
 	height: 300px;
-	border: rgba(255, 245, 238, 0.226) 2px solid;
+
 	margin-top: 60px;
+}
+
+.elemento-seccion {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: left;
+}
+
+/*Quote*/
+
+.contenedor-quote {
+	margin-top: 40px;
+	height: 400px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.459);
 }
