@@ -53,11 +53,19 @@ h1 {
 .izquierda {
 	margin-right: auto;
 }
+.header-logo {
+	margin-left: 195px;
+}
 
 li:hover {
 	color: rgb(248, 92, 1);
 	font-size: 1.2rem;
 	transition: 0.3s;
+}
+
+.animate__animated.animate__pulse {
+	--animate-duration: 2s;
+	animation-iteration-count: infinite;
 }
 
 li {
@@ -66,6 +74,10 @@ li {
 	margin-right: 15px;
 	z-index: 1;
 	font-weight: 500;
+}
+
+li:last-of-type {
+	margin-right: 190px;
 }
 
 /*Hero*/
@@ -85,12 +97,18 @@ li {
 	color: white;
 	border-radius: 1rem;
 	z-index: 15;
-	margin-top: 30px;
+	margin-top: 70px;
 	font-size: large;
 	font-weight: bold;
+	transition: 4s;
 }
 
 .boton-play:hover {
-	color: black;
-	background-color: white;
+	color: rgb(65, 65, 65);
+	background-color: rgb(255, 0, 0);
+	transition: 4s;
+}
+
+p {
+	font-size: 1.2rem;
 }
