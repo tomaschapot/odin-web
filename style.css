@@ -38,7 +38,7 @@ h2 {
 }
 
 .header {
-	background-image: url("/images/super-mario-3d-world-bowsers-fury-lm.jpg");
+	background-image: url("./images/super-mario-3d-world-bowsers-fury-lm.jpg");
 	background-size: cover;
 	background-position: center;
 	color: rgb(214, 214, 214);
